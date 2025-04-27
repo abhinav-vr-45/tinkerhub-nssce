@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="campus.css">
+    <title>TinkerHub</title>
+</head>
+<body>
+  <div>
+    <marquee class="scroll-text">
+        coding is a superpower ✧ skills pay the bills ✧ be kind ✧ don't fly solo ✧
+        coding is a superpower ✧ skills pay the bills ✧ be kind ✧ don't fly solo ✧
+        coding is a superpower ✧ skills pay the bills ✧ be kind ✧ don't fly solo ✧
+        coding is a superpower ✧ skills pay the bills ✧ be kind ✧ don't fly solo ✧
+        coding is a superpower ✧ skills pay the bills ✧ be kind ✧ don't fly solo ✧
+    </marquee>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo">
+          <img src="assets/image.png">
+          <a href="./index.html">TinkerHub</a> </div>
+        <ul>
+          <li><a href="#">Announcements</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="./campus.html">Campus</a></li>
+          <li><a href="https://tinkerhub.frappe.cloud/donate">Donate</a></li>
+          <button><a href="./login.html">SignIn</a></button>
+        </ul>
+      </div>
+    </nav>
+    </div>
+    <div class="container">
+        <div class="stats">
+            <div class="stat">
+                <span class="number" id="active-makers">0</span>
+                <p>ACTIVE MAKERS</p>
+            </div>
+            <div class="stat">
+                <span class="number" id="events">0</span>
+                <p>EVENTS</p>
+            </div>
+            <div class="stat">
+                <span class="number" id="projects">0</span>
+                <p>PROJECTS</p>
+            </div>
+            <div class="stat">
+                <span class="number" id="members">0</span>
+                <p>MEMBERS</p>
+            </div>
+        </div>
+
+        <h1>Meet Our Core Team</h1>
+        <div class="team">
+            <div class="member">
+                <img src="assets/campus/vishnu.jpg" alt="Campus Lead">
+                <h2>Campus Lead</h2>
+                <h3>Vishnu M</h3>
+                <p>Leading the team with vision and passion.</p>
+            </div>
+            <div class="member">
+                <img src="assets/campus/abhishek_arun.jpg" alt="Campus Co-Lead 1">
+                <h2>Campus Co-Lead</h2>
+                <h3>Abhishek Arunkumar</h3>
+                <p>Coordinating events and activities.</p>
+            </div>
+            <div class="member">
+                <img src="assets/campus/ashish.jpg" alt="Campus Co-Lead 2">
+                <h2>Campus Co-Lead</h2>
+                <h3>Ashish P S</h3>
+                <p>Supporting initiatives and outreach.</p>
+            </div>
+            <div class="member">
+                <img src="assets/campus/angelin_anto.jpg" alt="Outreach Lead">
+                <h2>Outreach Lead</h2>
+                <h3>Angelin Anto</h3>
+                <p>Connecting with the community and partners.</p>
+            </div>
+            <div class="member">
+                <img src="assets/campus/rayhana.jpg" alt="Women in Tech Lead">
+                <h2>Women in Tech Lead</h2>
+                <h3>Rayhana S</h3>
+                <p>Empowering women in technology.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to animate numbers
+        function animateNumber(id, target) {
+            let current = 0;
+            const increment = Math.ceil(target / 100);
+            const interval = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(interval);
+                }
+                document.getElementById(id).innerText = current;
+            }, 10);
+        }
+
+        // Start animations
+        window.onload = function() {
+            animateNumber('active-makers', 298);
+            animateNumber('events', 13);
+            animateNumber('projects', 45);
+            animateNumber('members', 298);
+        };
+    </script>
+</body>
+</html>
