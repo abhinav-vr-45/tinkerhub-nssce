@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TinkerHub</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
   <div>
@@ -31,19 +30,41 @@
         </ul>
       </div>
     </nav>
+  </div>
 
-<!--Hero Menu-->
-<div class="hero">
-  <div class="overlay">
-    <h1>TinkerHub NSSCE</h1>
-    <p>Join a community of innovators and creators.</p>
-    <a href="./login.html" class="btn">Join Community</a>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="overlay-glass">
+    <h1 class="animate-heading">TinkerHub NSSCE</h1>
+    <p class="animate-description">Join a community of innovators and creators.</p>
+    <a href="./login.html" class="btn animate-btn">Join Community</a>
+  </div>
+</section>
+
+<!-- Chat Button -->
+<button id="chatBtn" title="Chat with us!">Chat</button>
+
+<!-- Chat Popup -->
+<div id="chatPopup" class="chat-popup">
+  <div class="chat-header">
+    <h3>Chat with us!</h3>
+    <span id="closeChat">&times;</span>
+  </div>
+  <div class="chat-body" id="chatBody">
+    <div class="message bot">Hi there! Welcome to TinkerHub NSSCE.</div>
+    <div class="message bot">How can we help you today?</div>
+  </div>
+  <div class="chat-footer">
+    <input type="text" id="userInput" placeholder="Type your message...">
+    <button id="sendBtn">Send</button>
   </div>
 </div>
 
 <footer>
-  <p>&copy; 2023 TinkerHub. All rights reserved.</p>
+  <p>&copy; 2025 TinkerHub. All rights reserved.</p>
 </footer>
 </div>
+<script src="./script.js">
+</script>
 </body>
 </html>

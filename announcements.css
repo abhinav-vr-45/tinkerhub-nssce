@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-image: url(assets/bg.jpg);
   color: #333;
   margin: 0;
   padding: 0;
@@ -87,7 +87,7 @@ button a:hover{
   line-height: 1.3em;
 }
 header {
-  background-color: #ffcc00; /* Yellow */
+  background-color: #ffd900; /* Yellow */
   padding: 20px;
   text-align: center;
   border-bottom: 5px solid #ff0000; /* Red */
@@ -96,7 +96,7 @@ header {
 h1 {
   margin: 0;
   font-size: 2.5em;
-  color: #000; /* Black */
+  color: #000000; /* Black */
 }
 
 main {
@@ -104,9 +104,9 @@ main {
 }
 
 .announcement {
-  background-color: #000; /* Black */
-  color: #ffcc00; /* Yellow */
-  border: 2px solid #ff0000; /* Red */
+  background-color: #e6ff02; /* Black */
+  color: #ff0000; /* Yellow */
+  border: 5px solid #000000; /* Red */
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 20px;
@@ -115,10 +115,13 @@ main {
 h2 {
   margin-top: 0;
 }
+p{
+  color: #000000;
+}
 
 .date {
   font-weight: bold;
-  color: #ff0000; /* Red */
+  color: #000000; /* Red */
 }
 
 footer {

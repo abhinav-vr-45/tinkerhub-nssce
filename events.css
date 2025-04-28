@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #000000;
+  background-image: url(assets/bg.jpg);
   margin: 0;
   padding: 0;
 }
@@ -93,7 +93,8 @@ button a:hover{
 }
 
 h1 {
-  color: #ff0000;
+  color: #000000;
+  background-color: #ffbb00;
   margin-bottom: 40px;
   font-size: 4em;
   -webkit-text-stroke: width color:white;
