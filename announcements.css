@@ -1,6 +1,7 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #fffecf;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
   margin: 0;
   padding: 0;
 }
@@ -85,97 +86,47 @@ button a:hover{
   font-size: 6ex;
   line-height: 1.3em;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+header {
+  background-color: #ffcc00; /* Yellow */
   padding: 20px;
   text-align: center;
-}
-
-.stats {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px;
-}
-
-.stat {
-  background: #00ffea;
-  color: white;
-  border-radius: 10px;
-  padding: 20px;
-  width: 200px;
-  transition: transform 0.3s;
-}
-
-.stat:hover {
-  transform: translateY(-5px);
-}
-
-.number {
-  font-size: 2.5em;
-  font-weight: bold;
+  border-bottom: 5px solid #ff0000; /* Red */
 }
 
 h1 {
-  color: #ffffff;
-  margin-bottom: 40px;
+  margin: 0;
   font-size: 2.5em;
+  color: #000; /* Black */
 }
 
-.team {
-  display: flex;
-  flex-wrap: wrap
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+main {
   padding: 20px;
-  text-align: center;
 }
 
-h1 {
-  color: #333;
-  margin-bottom: 40px;
-  font-size: 2.5em;
-}
-
-.team {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.member {
-  background: #ffa600;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 20px;
-  width: 250px;
-  transition: transform 0.3s;
-}
-
-.member:hover {
-  transform: translateY(-5px);
-}
-
-.member img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 15px;
+.announcement {
+  background-color: #000; /* Black */
+  color: #ffcc00; /* Yellow */
+  border: 2px solid #ff0000; /* Red */
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  color: #000000;
-  font-size: 1.5em;
-  margin: 10px 0;
+  margin-top: 0;
 }
-h3{
-  color: #ffffff; font-size: 1.6em; font-weight: 600;
+
+.date {
+  font-weight: bold;
+  color: #ff0000; /* Red */
 }
-p {
-  color: #000000;
-  font-size: 1em;
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffcc00; /* Yellow */
+  border-top: 5px solid #ff0000; /* Red */
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }

@@ -1,41 +1,86 @@
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Corrected this line */
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #000000;
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  align-items: center; 
 }
-.navbar{
-  background: rgb(255, 0, 212); font-family: calibri; padding-right: 15px;padding-left: 15px; height: 8vh;
+
+.scroll-text {
+  font-family: 'Brush Script MT', cursive;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color: #FFFF00; /* Background color */
+  padding: 0.6cm;
+  color: #000000; /* Text color */
+  font-size: 6ex;
+  line-height: 1.3em;
 }
-.navdiv{
-  display: flex; align-items: center; justify-content: space-between;
+.container {
+  flex: 1;
 }
-.logo a{
-  font-size: 35px; font-weight: 600; color: rgb(39, 39, 39);
+
+.navbar {
+  background: rgba(255, 0, 0, 0.8);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-.logo img{
-  height: 30px;
-  width: 30px;
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-li{
-  list-style: none; display: inline-block;
-}
-li a{
-  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
-}
-li a:hover{
-  color: black;
+
+.logo a {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(251, 255, 0);
   text-decoration: none;
-  font-size: large;
 }
+.logo a:hover {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 15px;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: yellow;
+}
+
 button{
   background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
 }
@@ -48,17 +93,7 @@ button a{
 button a:hover{
   color: black;
 }
-.scroll-text {
-  font-family: 'Brush Script MT', cursive;
-  overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-  background-color: #FFFF00; /* Background color */
-  padding: 0.6cm;
-  color: #000000; /* Text color */
-  font-size: 6ex;
-  line-height: 1.3em;
-}
+
 .hero {
   position: relative;
   width: 100%;
@@ -66,52 +101,48 @@ button a:hover{
   background-image: url(assets/bg.jpg);
   background-size: cover;
   background-position: center;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.5); 
-  backdrop-filter: blur(2px); 
-  z-index: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
 }
 
 .overlay {
-  position: relative; 
+  position: relative;
   text-align: center;
-  color: white;
-  z-index: 2; flex-direction: column; 
-  align-items: center; 
-  justify-content: center;
+  color: rgb(255, 255, 255);
+  z-index: 2;
 }
 
 .overlay h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bolder;
-  font-size: 100px; /* Adjust as needed */
-  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.952);
-  background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(255, 0, 212, 1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 0;
-  padding: 20px;
+  font-size: 80px;
+  text-shadow: 4px 4px 8px rgba(255, 0, 0, 0.7);
+  margin-bottom: 20px;
 }
 
-.overlay a {
+.overlay p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.btn {
   padding: 12px 25px;
-  background-color: yellow;
+  background-color: rgb(255, 230, 0);
   color: black;
   text-decoration: none;
   font-size: 18px;
   border-radius: 8px;
   transition: background 0.3s;
-  z-index: 2;
+}
 
-.overlay a:hover{
+.btn:hover {
   background-color: white;
-  color: black;
-  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+}
