@@ -4,7 +4,7 @@ Welcome to the TinkerHub Campus Community Website! This platform is designed to 
 
 ## 🚀 Deployment
 
-The TinkerHub Campus Community Website is now live! 🎉 Visit it here: **[Your Deployment Link](https://your-deployment-link.com)**
+The TinkerHub Campus Community Website is now live! 🎉 Visit it here: **[TinkerHub NSSCE](https://tinkerhub-nssce.vercel.app/)**
 
 ---
 
@@ -20,6 +20,9 @@ The TinkerHub Campus Community Website is now live! 🎉 Visit it here: **[Your 
 ### 🔐 Sign-In Page
 A secure portal for members to log in and access personalized features. 🛡️
 
+### 💬 Front Page Chat
+Engage with an interactive chat feature on the front page! Members can connect and exchange ideas in real time. It's a lively space for community conversations and collaboration. 💬✨
+
 ### 📢 Announcements
 Stay updated with the latest news and alerts from the community. 🗞️
 
@@ -27,9 +30,6 @@ Stay updated with the latest news and alerts from the community. 🗞️
 - **Core Team**: Meet the dedicated individuals leading the community! 🌟
 - **Projects**⚡
 - **Members**👥
-
-### 💬 Front Page Chat
-Engage with an interactive chat feature on the front page! Members can connect and exchange ideas in real time. It's a lively space for community conversations and collaboration. 💬✨
 
 ### 📚 Resources
 An extensive library of learning materials and tools to empower members. 📖
@@ -39,10 +39,10 @@ An extensive library of learning materials and tools to empower members. 📖
 - **Past Events**: Relive the memories of previous gatherings. 🕰️
 
 ### ⌨️ Footer
-📜 **Copyright Info**: All rights reserved. 
-📍 **Address**: NSS College of Engineering, Palakkad, Kerala, India. 
-📞 **Contact**: +91-9876543210 
-🌐 **Socials**: Connect with us on Instagram, LinkedIn, Twitter, and GitHub.
+- 📜 **Copyright Info**: All rights reserved. 
+- 📍 **Address**: NSS College of Engineering, Palakkad, Kerala, India. 
+- 📞 **Contact**: +91-1234567890 
+- 🌐 **Socials**: Connect with us on Instagram, LinkedIn, Twitter, and GitHub.
 
 ### 💌 Donate
 Support the community and contribute to its growth. Every little bit helps! ❤️
@@ -52,14 +52,14 @@ Support the community and contribute to its growth. Every little bit helps! ❤�
 ## 🚀 How to Use
 
 1. Clone the repository:  
-   git clone "https://github.com/abhinav-vr-45/tinkerhub-nssce"
-   Navigate to the project directory:
+  - git clone "https://github.com/abhinav-vr-45/tinkerhub-nssce"
+  - Navigate to the project directory:
    
 2. cd your-project-directory
-   Open the index.html file in your browser to explore the website.
+   - Open the index.html file in your browser to explore the website.
 
 🌟 Contributing
-Want to make this platform even better? Feel free to contribute! Here's how:
+- Want to make this platform even better? Feel free to contribute! Here's how:
 
 1.Fork the repository.
 
@@ -74,11 +74,13 @@ Want to make this platform even better? Feel free to contribute! Here's how:
 
 5.Open a pull request.
 
-📧 Contact
-For any queries or feedback, feel free to reach out to us via email at abhinavvr2675@gmail.com. I'm here to help! 🌈
+📧 **Contact**
+- For any queries or feedback, feel free to reach out to us via email at abhinavvr2675@gmail.com. 
+Also connect me at **[LinkedIn](https://www.linkedin.com/in/abhinavvr )**
+I'm here to help! 🌈
 
-🙌 Acknowledgments
-A big shoutout to the entire TinkerHub community for their support throughout the making of this project. Together, we're building a brighter future! 🌟
+🙌 **Acknowledgments**
+- A big shoutout to the entire TinkerHub community for their support throughout the making of this project. Together, we're building a brighter future! 🌟
 
-🤝 License
-Not yet Licensed!
+🤝 **License**
+- Not yet Licensed!
