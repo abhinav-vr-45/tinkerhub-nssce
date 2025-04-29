@@ -277,12 +277,77 @@ button a:hover{
   border-radius: 10px;
 }
 
-footer {
+/* Footer Style */
+.footer {
+  background: #000;
+  color: #fffb00;
+  padding: 25px 18px;
+  font-family: 'Poppins', sans-serif;
+  border-top: .4px solid #ffcc00;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Social Links: horizontal layout */
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  color: #fffb00;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Center section: Address & copyright */
+.footer-center {
   text-align: center;
-  padding: 10px;
-  background-color: #ffcc00; /* Yellow */
-  border-top: 5px solid #ff0000; /* Red */
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  margin-right: 140px;
+}
+
+.footer-address {
+  font-size: 18px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+/* Right section: Contact Us (vertical list) */
+.footer-column h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.footer-links {
+  display: table;
+  vertical-align: center;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
 }

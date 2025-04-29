@@ -92,13 +92,14 @@ button a:hover{
   text-align: center;
 }
 
-h1 {
+.container h1 {
   color: #000000;
   background-color: #ffbb00;
   margin-bottom: 40px;
   font-size: 4em;
   -webkit-text-stroke: width color:white;
 }
+
 
 .event-section {
   margin-bottom: 40px;
@@ -134,4 +135,26 @@ h1 {
 .event p {
   color: rgb(71, 41, 41);
   margin: 5px 0;
+}
+/* Footer Style */
+.footer {
+  background: #000;
+  color: #ffcc00;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  border-top: 2px solid #ffcc00;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-address {
+  font-size: 16px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.6;
 }

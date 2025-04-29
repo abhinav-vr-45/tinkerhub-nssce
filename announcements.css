@@ -111,6 +111,9 @@ main {
   padding: 15px;
   margin-bottom: 20px;
 }
+.announcement:hover{
+  background: #e9ecef;
+}
 
 h2 {
   margin-top: 0;
@@ -124,12 +127,25 @@ p{
   color: #000000; /* Red */
 }
 
-footer {
+/* Footer Style */
+.footer {
+  background: #000;
+  color: #ffcc00;
+  padding: 40px 20px;
   text-align: center;
-  padding: 10px;
-  background-color: #ffcc00; /* Yellow */
-  border-top: 5px solid #ff0000; /* Red */
+  font-family: 'Poppins', sans-serif;
+  border-top: 2px solid #ffcc00;
   position: relative;
-  bottom: 0;
-  width: 100%;
+  z-index: 1;
+}
+
+.footer-address {
+  font-size: 16px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.6;
 }
